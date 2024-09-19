@@ -1,0 +1,14 @@
+.gen{
+    padding: 73px 40px;
+    border-top: 1px #646464 solid;
+    background-color: #f0ece4;
+    font-family: LGEI Text, Segoe UI, "Microsoft Sans Serif", sans-serif;
+}
+.formulario{
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+.entrada{
+    width: 100%;
+}
