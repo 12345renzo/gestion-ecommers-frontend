@@ -1,6 +1,10 @@
 import React from 'react'
 import '../../../css/login.css'
-import { Box, Grid2, Typography } from '@mui/material'
+import { Box, Button, Grid2, TextField, Typography } from '@mui/material'
+//import * as yup from 'yup'
+//import { useFormik } from 'formik';
+import Link from 'next/link';
+
 
 function page() {
   return (
@@ -31,11 +35,30 @@ function page() {
               Disfruta los beneficios exclusivos comprando en LG.com
             </Typography>
           </Grid2>
-          <Grid2 item size={12} sx={{ border: "1px black solid" }}>
+          <Grid2 container size={12} sx={{ border: "1px black solid" }}>
             <Box className="formulario">
-              <input className="entrada" type="text" placeholder="ola" />
-              <input className="entrada" type="text" placeholder="ola" />
-              <input className="entrada" type="text" placeholder="ola" />
+              <Grid2 item size={12}>
+                <TextField
+                  fullWidth
+                  id="email"
+                  name="email"
+                  label="Usuario"
+                  className="entrada"
+                />
+              </Grid2>
+              <Grid2 item size={12}>
+                <TextField
+                  fullWidth
+                  id="password"
+                  name="password"
+                  label="Contraseña"
+                  className="entrada"
+                />
+              </Grid2>
+              <Grid2 item size={12}>
+                <Button>Iniciar Secion</Button>
+                <Link href='/pe/registrar'>Registrarse</Link>
+              </Grid2>
             </Box>
           </Grid2>
         </Grid2>
