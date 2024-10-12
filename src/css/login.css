@@ -1,19 +1,129 @@
-.gen{
-    padding: 73px 40px;
-    border-top: 1px #646464 solid;
-    background-color: #f0ece4;
-    font-family: LGEI Text, Segoe UI, "Microsoft Sans Serif", sans-serif;
+.gen {
+  padding: 73px 40px;
+  border-top: 1px #646464 solid;
+  background-color: #f0ece4;
+  font-family: LGEI Text, Segoe UI, "Microsoft Sans Serif", sans-serif;
 }
-.formulario{
-    background-color: white;
-    width: 100%;
-    border-radius: 25px;
-    padding: 25px;
+.aki {
+  width: 100%;
 }
-.entrada{
-    font-size: 16px;
-    padding: 12px 13px;
-    box-sizing: border-box;
-    border: 1px black solid;
+.formulario {
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.formu {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.regis {
+  text-decoration: underline;
+  color: black;
+  font-weight: 650;
+  padding-bottom: 7px;
+  padding-top: 2px;
+}
+.bts {
+  text-transform: none;
+  font-size: 24px;
+  color: black;
+  font-weight: 550;
+  background-color: white;
+  border: 1.6px black solid;
+  padding: 8px 30px;
+  border-radius: 28px;
+}
+.bts:hover {
+  color: white;
+  background-color: #ea1917;
+  border: 1.6px #ea1917 solid;
+}
+.regist {
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+  color: white;
+  font-weight: 650;
+  background-color: #ea1917;
+  border: 1.6px #ea1917 solid;
+  padding: 13px 30px;
+  border-radius: 28px;
+}
+.regist:hover {
+  color: black;
+  background-color: white;
+  font-weight: 650;
+  border: 1.6px black solid;
+}
+
+@media (max-width: 650px) {
+  .titu {
+    font-size: 36px;
+  }
+  .subti {
+    font-size: 14px;
+  }
+  .bts {
+    font-size: 14px;
+  }
+  .regis {
+    font-size: 14px;
+  }
+  .regist {
+    font-size: 14px;
+  }
+  .dos {
+    font-size: 24px;
+  }
+  .doss {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 460px) {
+  .regis {
+    font-size: 12px;
+  }
+  .formulario {
     border-radius: 15px;
+    padding: 15px;
+  }
+  .formu {
+    border-radius: 15px;
+    padding: 15px;
+  }
+  .gen {
+    padding: 43px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .gen {
+    padding: 23px 10px;
+  }
+  .titu {
+    font-size: 26px;
+  }
+  .subti {
+    font-size: 12px;
+  }
+  .bts {
+    font-size: 14px;
+  }
+  .regis {
+    font-size: 12px;
+  }
+  .regist {
+    font-size: 14px;
+  }
+  .dos {
+    font-size: 14px;
+  }
+  .doss {
+    font-size: 12px;
+  }
 }

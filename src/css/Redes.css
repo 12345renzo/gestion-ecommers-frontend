@@ -1,0 +1,23 @@
+.op{
+    border-top: 1px #646464 solid;
+  background-color: #f0ece4;
+}
+.red{
+    background-color: #E6E1D6;
+}
+.red:hover{
+    border: 2px solid black;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+    margin-top: 45px;
+}
+.xt{
+    font-weight: 550;
+}
+.redes1{
+    margin-bottom: 64px;
+}

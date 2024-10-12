@@ -1,67 +1,75 @@
 .general {
-    background-color: #f0ece4;
+  background-color: #f0ece4;
 }
 
 .contenido {
-    margin: 0 19.2px;
-    padding: 0 24px;
-    height: 80.8px;
+  margin: 0 19.2px;
+  padding: 0 24px;
+  height: 80.8px;
 }
 
 .opcion {
-    text-decoration: none;
-    text-transform: none;
-    font-size: 20px;
-    font-weight: 450;
-    color: black;
-    padding: 5px 0 ;
-    margin: 10px 18px;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  font-weight: 450;
+  color: black;
+  padding: 5px 0;
+  margin: 10px 18px;
 }
 
 .opcion2 {
-    text-transform: none;
-    text-decoration: none;
-    text-align: center;
-    font-size: 14px;
-    color: black;
-    background-color: white;
-    padding: 10px 16px;
-    font-weight: bold;
-    border-radius: 25px;
-    border: 1px black solid;
-    letter-spacing: 1px;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  padding: 10px 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 1px black solid;
+  letter-spacing: 1px;
 }
 
 .ruta {
-    text-decoration: none;
-    text-transform: none;
-    color: black;
+  text-decoration: none;
+  text-transform: none;
+  color: black;
 }
 
 .ruta2 {
-    text-decoration: none;
-    text-transform: none;
+  text-decoration: none;
+  text-transform: none;
 }
 
-.ruta:hover{
-    color: red;
+.ruta:hover {
+  color: red;
 }
 
-.opcion:hover{
-    border-bottom: 2px red solid;
+.opcion:hover {
+  border-bottom: 2px red solid;
 }
 
-.opcion2:hover{
-    background-color: red;
-    color: white;
-    border: 1px red solid;
+.opcion2:hover {
+  background-color: red;
+  color: white;
+  border: 1px red solid;
 }
-.sa{
-    margin-top: 165px;
-    display: flex;
-    align-items: start;
+.sa {
+  margin-top: 165px;
+  display: flex;
+  align-items: start;
 }
 
 .log {
-    margin: 0px 10px;
+  margin: 0px 10px;
+}
+
+@media (max-width: 365px) {
+  .contenido {
+    margin: 0 5.2px;
+    padding: 0 10px;
+    height: 80.8px;
+  }
 }

@@ -64,7 +64,7 @@ function Navbar() {
             justifyContent: "center",
             alignItems: "center",
             minWidth: "100px",
-            minHeight: "44px",
+            minHeight: "44px"
           }}
         >
           <Link href="/" className="ruta">
