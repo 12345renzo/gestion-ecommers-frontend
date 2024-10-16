@@ -1,0 +1,86 @@
+.parte {
+  background-color: #e6e1d6;
+  color: #4a4946;
+  font-size: 16px;
+}
+.part {
+  background-color: #e6e1d6;
+  padding: 40px 40px;
+}
+.fg {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4a4946;
+  padding: 20px 40px ;
+}
+.pri {
+  color: black;
+  font-size: 20px;
+  font-weight: 550;
+}
+.conte {
+  color: #333333;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.termi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #4a4946;
+  border-radius: 50%;
+  color: white;
+}
+.uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.it{
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.it:hover{
+    text-decoration: underline;
+}
+.kl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px 9px 9px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    text-decoration: underline;
+    margin-right: 8px;
+}
+
+@media (max-width: 460px) {
+  .parte {
+    padding: 43px 20px;
+  }
+  .part {
+    padding: 43px 20px;
+  }
+  .fg{
+    padding: 20px 20px ;
+  }
+}
