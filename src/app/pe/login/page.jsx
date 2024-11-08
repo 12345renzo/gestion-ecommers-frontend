@@ -12,11 +12,17 @@ function page() {
     "Conoce el estado de tu consulta por correo electrónico y llámanos para saber el estado de tu cita.",
   ];
   const imagenes = ['/carro.svg','/llave.svg','/mas.svg','/consu.svg'];
+  const ruta = [
+    "/pe/seguimiento",
+    "/pe/soporte/contactos",
+    "/pe/soporte/registrar-producto",
+    "/pe/soporte/reparacion",
+  ];
   return (
     <div>
       <Login/>
       <Redes/>
-      <Ayuda titulo="Estado de seguimiento" subtitle="" activa1={false} contenido={titulos} content={subtitulos} imagen={imagenes}/>
+      <Ayuda titulo="Estado de seguimiento" subtitle="" activa1={false} contenido={titulos} content={subtitulos} imagen={imagenes} ruta={ruta}/>
     </div>
   );
 }
