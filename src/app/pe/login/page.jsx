@@ -14,9 +14,9 @@ function page() {
   const imagenes = ['/carro.svg','/llave.svg','/mas.svg','/consu.svg'];
   const ruta = [
     "/pe/seguimiento",
-    "/pe/soporte/contactos",
-    "/pe/soporte/registrar-producto",
     "/pe/soporte/reparacion",
+    "/pe/soporte/registrar-producto",
+    "/pe/soporte/contactos",
   ];
   return (
     <div>

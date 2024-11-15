@@ -3,26 +3,37 @@ import { Typography } from '@mui/material';
 import estilo from '../../../../css/Contacto.module.css';
 import React from 'react'
 import Pregunta from '@/components/Pregunta';
+import Especial from '@/components/Especial';
 
 function page() {
+    {/*este son los datos del componente ayuda */}
     const titulos = [
       "Soporte de pedidos",
       "Registra tu producto",
       "Soporte de producto",
       "Solucitud de Reparacion",
     ];
+    const imagenes = ["/order.svg", "/mas.svg", "/product.svg", "/llave.svg"];  
+    const ruta = [
+      "/pe/seguimiento",
+      "/pe/soporte/contactos",
+      "/pe/soporte/registrar-producto",
+      "/pe/soporte/reparacion",
+    ];
+
+    {/*este son los datos del componente pregunta */}
     const titulo = [
       "Soporte de pedidos",
       "Registra tu producto",
       "Soporte de producto",
       "Solucitud de Reparacion",
     ];
-    const imagenes = ["/carro.svg", "/llave.svg", "/mas.svg", "/consu.svg"];
-    const ruta = [
-      "/pe/seguimiento",
-      "/pe/soporte/contactos",
-      "/pe/soporte/registrar-producto",
-      "/pe/soporte/reparacion",
+    const imagen = ["/chat.svg","/whatsapp.svg","/email.svg","/call.svg"];
+    const dire = [
+      "https://api.whatsapp.com/send/?phone=5114180900&text&type=phone_number&app_absent=0",
+      "https://api.whatsapp.com/send/?phone=5114180900&text&type=phone_number&app_absent=0",
+      "/pe/soporte/contactos/email",
+      "https://api.whatsapp.com/send/?phone=5114180900&text&type=phone_number&app_absent=0",
     ];
     const fecha = [
       "Lunes a Viernes de 7:00 am a 9:00 pm",
@@ -48,6 +59,11 @@ function page() {
       "Mas informacion",
       "Llamar Aqui"
     ]
+
+    {/*este son los datos del componente sespecial */}
+    const titless = ["Cargar documento","Estado de la Consulta","Mensaje al Predidente de LG","Comparte tus Comentarios"];
+    const bodys = ["Si te enviamos un número de caso, adjunta un archivo.","Nuestros expertos responderán dentro de 1 a 2 días, verifica tu estado aquí","Envíanos tus comentarios utilizando el siguiente formulario.","¿Cómo fue tu experiencia con nosotros? Comparte tus pensamientos y opinione"];
+    const picture = ["/fota.svg","/inquiry.svg","/president.svg","/feedback.svg"];
   return (
     <div>
       <div className={estilo.cabecera}>
@@ -76,12 +92,21 @@ function page() {
         titulo="¿Tienes alguna pregunta?"
         contenido={titulo}
         content={content}
-        imagen={imagenes}
-        ruta={ruta}
+        imagen={imagen}
+        ruta={dire}
         fecha={fecha}
-        activa1 = {aver}
-        cont = {cont}
+        activa1={aver}
+        cont={cont}
         boton={boton}
+      />
+      <Especial
+        titulo=""
+        activa2={false}
+        contenido={titless}
+        content={bodys}
+        imagen={picture}
+        activa1 = {true}
+        ruta={dire}
       />
     </div>
   );
