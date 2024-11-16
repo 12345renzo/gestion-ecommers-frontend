@@ -16,7 +16,7 @@ function Especial({titulo, contenido, content, imagen, activa1, activa2, ruta })
             <Typography
               variant="h1"
               className="gh"
-              sx={{fontSize: "56px", fontWeight: "600" }}
+              sx={{fontSize: "56px", fontWeight: "600", paddingTop:"73px" }}
             >
               {titulo}
             </Typography>

@@ -1,0 +1,50 @@
+.ako{
+    border-top: 1px #646464 solid;
+  background-color: #f0ece4;
+  padding: 73px 42px;
+}
+.inde{
+    font-size: 36px;
+    color: black;
+    padding-bottom: 15px;
+}
+.ex{
+    font-size: 16px;
+    color: black;
+}
+@media (max-width: 815px) {
+  .inde{
+    font-size: 24px;
+  }
+  .ex{
+    font-size: 13px;
+  }
+  .dfg{
+    width: 225px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 680px) {
+  .gh {
+    font-size: 36px;
+  }
+  .hg {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .ako {
+    padding: 43px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .gh {
+    font-size: 26px;
+  }
+  .hg {
+    font-size: 12px;
+  }
+}
